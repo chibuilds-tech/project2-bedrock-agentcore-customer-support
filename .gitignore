@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# AgentCore generated files
+agentcore/.cache/
+agentcore/.cli/
+agentcore/.llm-context/
+agentcore/cdk/node_modules/
+agentcore/cdk/cdk.out/
+agentcore/cdk/dist/
+
+# Deployment artifacts
+deployment_package/
+*.zip
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
